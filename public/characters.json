@@ -1,0 +1,90 @@
+[
+  {
+    "_id"         : "1",
+    "name"        : "asuna",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "asuna-nendo.jpg"
+  },
+  {
+    "_id"         : "2",
+    "name"        : "rem",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "rem-nendo.jpg"
+  },
+  {
+    "_id"         : "3",
+    "name"        : "irine",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "irine-nendo.jpg"
+  },
+  {
+    "_id"         : "4",
+    "name"        : "saber",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "saber-nendo.jpg"
+  },{
+    "_id"         : "5",
+    "name"        : "madoka",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "madoka-nendo.jpg"
+  },{
+    "_id"         : "6",
+    "name"        : "misaka",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "misaka-nendo.jpg"
+  },{
+    "_id"         : "7",
+    "name"        : "homura",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "saber Smile Company",
+    "photo"       : "homura-nendo.jpg"
+  },{
+    "_id"         : "8",
+    "name"        : "shimakaze",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "shimakaze-nendo.jpg"
+  },{
+    "_id"         : "9",
+    "name"        : "kongou",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "kongou-nendo.jpg"
+  },{
+    "_id"         : "10",
+    "name"        : "menma",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "menma-nendo.jpg"
+  },{
+    "_id"         : "11",
+    "name"        : "saber2",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "saber2-nendo.jpg"
+  },{
+    "_id"         : "12",
+    "name"        : "kudd",
+    "price"       : 4450,
+    "description" : "test",
+    "producer"    : "Good Smile Company",
+    "photo"       : "kudd-nendo.jpeg"
+  }
+]
