@@ -97,7 +97,7 @@ class Header extends Component {
 
     return(
       <div style={ headerStyle }>
-        <Link to='/'style={ logoStyle }>Moe Store!</Link>
+        <Link to='/'style={ logoStyle }>Moe Storey</Link>
         <div style={searchAreaStyle}>
           <form
           onSubmit={ this.goToSearch }>

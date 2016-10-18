@@ -65,7 +65,7 @@
 /******/ 	}
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "b31210d3aa3fecfcfe07"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "fc36b18ff613b88d8188"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -570,7 +570,7 @@
 /******/ 	__webpack_require__.c = installedModules;
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "./public/";
+/******/ 	__webpack_require__.p = "http://localhost:8080/public";
 
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -43581,7 +43581,7 @@
 	        _react3.default.createElement(
 	          _reactRouter.Link,
 	          { to: '/', style: logoStyle },
-	          'Moe Storee!'
+	          'Moe Storeal'
 	        ),
 	        _react3.default.createElement(
 	          'div',

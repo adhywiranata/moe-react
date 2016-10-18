@@ -8,15 +8,11 @@ module.exports = {
       './src/index.js'
     ]
   },
-  //entry: './src/index.js',
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname,'public/js'),
-    publicPath: './public/'
+    publicPath: 'http://localhost:8080/public/js/'
   },
-  plugins: [
-    new webpack.HotModuleReplacementPlugin()
-  ],
   module: {
     loaders: [
       {
