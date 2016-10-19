@@ -1,6 +1,10 @@
 import React, { Component, PropTypes } from 'react'
 import { Link, hashHistory } from 'react-router'
 
+var css = require('./header.css')
+
+console.log(css)
+
 const { connector } = require('../../store/Store')
 
 class Header extends Component {
@@ -22,7 +26,6 @@ class Header extends Component {
     var headerStyle = {
       padding: '5 20',
       background: '#222222',
-      fontFamily:'Open Sans, sans-serif',
       position: 'fixed',
       zIndex: '+999',
       width: '100%',
@@ -53,8 +56,7 @@ class Header extends Component {
       borderRadius:5,
       outline:0,
       width:'50%',
-      fontSize:'1em',
-      fontFamily:'Open Sans, sans-serif'
+      fontSize:'1em'
     }
 
     var searchButtonStyle = {
@@ -96,8 +98,8 @@ class Header extends Component {
     }
 
     return(
-      <div style={ headerStyle }>
-        <Link to='/'style={ logoStyle }>Moe Storey</Link>
+      <div style={ headerStyle } className={css.header}>
+        <Link to='/'style={ logoStyle }>Moe Store</Link>
         <div style={searchAreaStyle}>
           <form
           onSubmit={ this.goToSearch }>
